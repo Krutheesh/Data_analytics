@@ -89,7 +89,7 @@
   display: flex;
   margin: auto;
   padding: 0.5rem;
-  background-color:  #f7f1ff; ;
+  background-color:  #f7f1ff; 
   border-radius: 0.5rem;
   width: 14%;
   margin: auto;
@@ -212,12 +212,13 @@
 .section5{
   padding: 3rem 10rem;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 }
 .section5 h2{
   font-size: 2rem;
 }
 .sec5-right-bottom{
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2,1fr);
@@ -227,8 +228,56 @@ justify-content: space-between;
 .sec5-right{
   width: 50%;
 }
-
-
+.sec5-left{
+  position: relative;
+  background-color: #f7f1ff;
+  width: 50%;
+  text-align: center;
+  height: 65vh;
+  
+}
+.sec5-bgc{
+  position: absolute;
+  top: -15%;
+  background-color: #fff;
+  margin: 0 1rem 1rem 1rem;
+  padding: 2rem;
+  width: 93%;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 0.3rem;
+} 
+.sec5-bgc input{
+  width:100%;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.sec5-bgc button{
+  width: 100%;
+  background-color: #7634d2;
+  border: none;
+  border-radius: 5px;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.already{
+  border-top: 1px solid  grey;
+  padding: 0.5rem 0;
+  margin-top: 0.3rem;
+}  
+.already small{
+  font-size: 1rem;
+  color: rgb(145, 144, 144);
+}
+.already a{
+  text-decoration: none;
+}
+.or{
+  padding: 0.5rem 0;
+}
 /* footer styling starts here */
 .footer{
   padding: 5rem 5rem;
